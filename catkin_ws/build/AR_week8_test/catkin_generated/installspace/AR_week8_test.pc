@@ -1,0 +1,8 @@
+prefix=/home/bikash/catkin_ws/install
+
+Name: AR_week8_test
+Description: Description of AR_week8_test
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: moveit_commander message_runtime moveit_msgs rospy std_msgs
